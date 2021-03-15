@@ -1,6 +1,6 @@
 <template>
  
-  <div class="container  flex justify-end  p-10  ">
+  <div class="container  flex justify-end  pt-5  ">
     
      <a  href="https://www.linkedin.com/in/farazahmadkhan15/"  target="_blank" class="flex mr-2 text-primary text-md mr-3" >
             <svg

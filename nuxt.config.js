@@ -16,8 +16,9 @@ export default {
     ],
 
     script: [{
-      src: "https://code.iconify.design/1/1.0.7/iconify.min.js"
-    }]
+     hid:'iconify', src: "https://code.iconify.design/1/1.0.7/iconify.min.js", defer:true },
+
+]
 
 
 
@@ -30,6 +31,8 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    { src: '~/plugins/particles.js', mode: 'client' }
+   
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

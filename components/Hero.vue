@@ -1,48 +1,91 @@
 <template>
-<section class="text-gray-400 bg-gray-900 body-font h-screen">
-   <NavBar/>
-  <div class="container mx-auto flex px-5 py-19 justify-center md:flex-row flex-col items-center">
-    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-      <button class="bg-gray-700 px-6 py-2 rounded-t-3xl rounded-r-3xl ">
-<p >Hello!!! I'm</p>
-      </button>
-      
-      <h1 class="title-font font-fans italic sm:text-4xl text-3xl mb-4 font-medium text-white">Faraz Ahmad Khan</h1>
+<section class="text-gray-400 bg-grey-900 body-font h-screen">
+  <div class="absolute w-full h-full bg-gray-900"  id="particles-js">
+    
+  </div>
 
-      
-      <p class="mb-8 leading-relaxed font-fans italic ">A Software Engineer with a passion of programming. Like to work on Websites and Machine Learning.Keen to learn and make projects in new technologies. 
-        <br> I have developed some bueatiful application using:   </p>
+<div class="flex-col text h-full">
+  <NavBar/>
+ <div class="container mx-auto flex px-5 py-8 items-center justify-center flex-col">
+    <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover p-0 object-center rounded" alt="hero" src="https://dummyimage.com/720x600">
+    <div class="text-center lg:w-2/3 w-full">
+      <h1 class=" sm:text-4xl text-3xl mb-4 p-1 font-medium font-fans italic text-gray-400">Faraz Ahmad Khan</h1>
+      <p class="mb-8 leading-relaxed">Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing tousled. Chambray dreamcatcher trust fund, kitsch vice godard disrupt ramps hexagon mustache umami snackwave tilde chillwave ugh. Pour-over meditation PBR&amp;B pickled ennui celiac mlkshk freegan photo booth af fingerstache pitchfork.</p>
 
-      <div class="flex lg:flex-row  md:flex-col text-gray-300">
-
-        <span class="iconify" data-icon="carbon:logo-python" data-inline="false"></span>
-        <span class="iconify" data-icon="cib:flask" data-inline="false"></span>
-        <span class="iconify" data-icon="la:node" data-inline="false"></span>
-        <span class="iconify" data-icon="fa-brands:node-js" data-inline="false"></span>
-        <span class="iconify" data-icon="icomoon-free:html-five2" data-inline="false"></span>
-        <span class="iconify" data-icon="carbon:machine-learning-model" data-inline="false"></span>
-        <span class="iconify" data-icon="cib:nuxt-js" data-inline="false"></span>
-
-        <span class="iconify" data-icon="bx:bxl-firebase" data-inline="false"></span>
-
-
-      </div>
     </div>
-    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-      <!-- <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"> -->
-
+  </div>
 
 
 </div>
-  </div>
+
+ 
 </section>
 </template>
 
 <script>
 export default {
 
+ 
 }
+
+
+
+
 </script>
+
+
+
+<style lang="scss">
+// SASS Variables.
+
+$link: #9CA3AF;
+$link-hover: #4B5563;
+
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+}
+
+.text {
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	transform: translate(50%,-50%);
+	// color: $text;
+	max-width: 90%;
+	// padding: 2em 3em;
+	background: rgba(0, 0, 0, 0.4);
+	text-shadow: 0px 0px 2px #131415;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	font-size: 2.25em;
+	font-weight: 700;
+	letter-spacing: -1px;
+}
+
+a,
+a:visited {
+	color: $link;
+	transition: 0.25s;
+}
+
+a:hover,
+a:focus {
+	color: $link-hover;
+}
+</style>
+
+
 
 <style>
 

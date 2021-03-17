@@ -1,15 +1,15 @@
 <template>
  
-  <div class="container  flex justify-end  pt-5  ">
+  <div class="container  flex justify-center  pb-5  ">
     
-     <a  href="https://www.linkedin.com/in/farazahmadkhan15/"  target="_blank" class="flex mr-2 text-primary text-md mr-3" >
+     <a  href="https://www.linkedin.com/in/farazahmadkhan15/"  target="_blank" class="flex mr-2 text-indigo-400 text-primary text-md mr-3" >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
               viewBox="0 0 24 24"
               fill="none"
-              stroke="currentcolor"
+              stroke="text-indigo-400"
               stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"

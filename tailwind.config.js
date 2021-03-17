@@ -8,7 +8,7 @@ module.exports = {
     fontFamily: {
 
       'fans': ['Operator Mono Lig', 'Menlo', 'Monaco', 'Courier New', 'monospace'],
-
+ 
      },
     extend: {
       backgroundImage: theme => ({

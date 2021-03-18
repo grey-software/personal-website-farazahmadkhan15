@@ -40,7 +40,7 @@
       <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
         <h2 class="text-indigo-400 text-lg font-bold title-font font-medium mb-2">Student Portal</h2>
         <p class="leading-relaxed text-base">This Project helps to connect Students,Teachers and admin staff with each other and Handle daily acadamic activities developed in PHP and MySQL.  .</p>
-        <a class="mt-3 text-indigo-400 inline-flex items-center" href="https://github.com/farazahmadkhan15/studentPortal" target="_blank">Learn More
+        <a class="mt-3 text-indigo-400 inline-flex items-center" href="https://github.com/farazahmadkhan15/studentPortal" target="_blank">GitHub Repo
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>

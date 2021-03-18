@@ -13,7 +13,7 @@
     <div class="text-center lg:w-2/3 w-full">
       <h1 class=" sm:text-4xl text-3xl mb-4 p-1 text-indigo-400 font-extrabold font-fans italic text-gray-400">Faraz Ahmad Khan</h1>
       <p class="mb-8 font-fans font-bold font-xl italic leading-relaxed">Hello! I am Faraz Ahmad Khan, a Software Engineer with the passion for developing 
-        innovative programs.I love to work on Website, REST APIs and Machine Learning. I always enjoy to learn new languages and development techniques.  </p>
+        innovative programs.I love to work on Website, REST APIs and Machine Learning and always enjoy to learn new languages and development techniques.  </p>
 
     </div>
   </div>

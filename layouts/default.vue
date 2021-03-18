@@ -2,8 +2,9 @@
   <div>
    
     <Nuxt />
-    <!-- <Tool /> -->
+    <Tool />
     <Projects />
+    <Experience />f
    
   </div>
 </template>

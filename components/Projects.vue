@@ -1,6 +1,6 @@
 <template>
   <section class="text-gray-400 font-fans italic bg-gray-900  body-font">
-  <div class="container   px-5 py-24 mx-auto">
+  <div class="container   px-5 pb-24 pt-0 mx-auto">
         <h1 class=" sm:text-4xl text-3xl mb-4 p-1 flex items-center justify-center font-extrabold text-indigo-400  font-fans italic ">Projects</h1>
         <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-800 sm:flex-row flex-col">
               <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full text-indigo-400 bg-gray-800 flex-shrink-0">

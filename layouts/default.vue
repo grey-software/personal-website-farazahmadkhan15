@@ -4,7 +4,8 @@
     <Nuxt />
     <Tool />
     <Projects />
-    <Experience />f
+    <Experience />
+    <Footer />
    
   </div>
 </template>

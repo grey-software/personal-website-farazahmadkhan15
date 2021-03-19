@@ -1,6 +1,6 @@
 <template>
-  <section class="text-gray-400 font-fans italic bg-gray-900 body-font">
-         <h1 class=" sm:text-4xl text-3xl mb-4 p-1 flex items-center justify-center font-extrabold text-indigo-400  font-fans italic ">Work Experience</h1>
+  <section class="text-gray-400   italic bg-gray-900 body-font">
+         <h1 class=" sm:text-4xl text-3xl mb-4 p-1 flex items-center justify-center font-extrabold text-indigo-400    italic ">Work Experience</h1>
   <div class="container px-5 pb-24 mx-auto flex flex-wrap">
     <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
       <div class="h-full w-6 absolute inset-0 flex items-center justify-center">

@@ -7,12 +7,12 @@
   <div class="flex h-screen justify-center items-center">
 <div class="absolute object-center w-3/5">
 
- <div class="container h-3/2  flex   py-8 items-center p-0 justify-center flex-col">
+ <div class="container h-3/2  flex   py-8 px-16 items-center p-0 justify-center flex-col">
     <img class="mb-10   p-0  rounded-full" alt="hero" src="~/assets/faraz.jpg">
 	   <NavBar/>
     <div class="text-center lg:w-2/3 w-full">
-      <h1 class=" sm:text-4xl text-3xl mb-4 p-1 text-indigo-400 font-extrabold font-fans italic text-gray-400">Faraz Ahmad Khan</h1>
-      <p class="mb-8 font-fans font-bold font-xl italic leading-relaxed">Hello! I am Faraz Ahmad Khan, a Software Engineer with the passion for developing 
+      <h1 class=" sm:text-4xl text-3xl mb-4 p-1 text-indigo-400 font-extrabold   italic text-gray-400">Faraz Ahmad Khan</h1>
+      <p class="mb-8   font-bold font-xl italic leading-relaxed">Hello! I am Faraz Ahmad Khan, a Software Engineer with the passion for developing 
         innovative programs.I love to work on Website, REST APIs and Machine Learning and always enjoy to learn new languages and development techniques.  </p>
 
     </div>

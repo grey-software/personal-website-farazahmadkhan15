@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "Oxygen";
+    src: local("Oxygen"),     url(~/assets/OperatorMonoLig-BookItalic.otf) format("truetype");}
+
+html {
+    font-family: "Oxygen";
+}

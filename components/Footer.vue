@@ -1,7 +1,7 @@
 <template>
 
 
-<footer class="text-gray-400 font-fans italic bg-gray-800 body-font">
+<footer class="text-gray-400   italic bg-gray-800 body-font">
   <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
     <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
 

@@ -10,7 +10,8 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "heroku-postbuild": "nuxt build"
   },
   "dependencies": {
     "@nuxt/components": "^2.1.2",

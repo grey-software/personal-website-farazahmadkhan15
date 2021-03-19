@@ -4,23 +4,39 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'personal-website',
+    title: 'Faraz Ahmad khan',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'og:description', name: 'og:description', content: 'A software engineer who love to code and create bueatiful things' },
+      { hid: 'og:title', name: 'og:title', content: 'Faraz Ahmad Khan' },
+      { hid: 'og:site_name', name: 'og:site_name', content: 'Faraz Ahmad Khan' }
+      
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      
+    ],
+
+    script: [{
+     hid:'iconify', src: "https://code.iconify.design/1/1.0.7/iconify.min.js", defer:true },
+
+]
+
+
+
+    
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    "~layouts/global.css"
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    { src: '~/plugins/particles.js', mode: 'client' }
+   
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

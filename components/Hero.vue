@@ -1,29 +1,100 @@
 <template>
-  <section class="text-gray-600 body-font">
-  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Before they sold out
-        <br class="hidden lg:inline-block">readymade gluten
-      </h1>
-      <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
-      <div class="flex justify-center">
-        <button class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Button</button>
-        <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
-      </div>
-    </div>
-    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-      <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600">
+<section class="text-gray-400 bg-grey-900 body-font h-screen">
+  <div class="absolute w-screen h-screen bg-gray-900"  id="particles-js">
+    
+  </div>
+
+  <div class="flex h-screen justify-center items-center">
+<div class="absolute object-center w-3/5">
+
+ <div class="container h-3/2  flex   py-8  items-center p-0 justify-center flex-col">
+    <img class="mb-10   p-0  rounded-full" alt="hero" src="~/assets/faraz.jpg">
+	   <NavBar/>
+    <div class="text-center lg:w-2/3 w-full">
+      <h1 class=" sm:text-4xl text-3xl mb-4 p-1 text-indigo-400 font-extrabold   italic text-gray-400">Faraz Ahmad Khan</h1>
+      <p class="mb-8   font-bold font-xl italic leading-relaxed">Hello! I am Faraz Ahmad Khan, a Software Engineer with the passion for developing 
+        innovative programs.I love to work on Website, REST APIs and Machine Learning and always enjoy to learn new languages and development techniques.  </p>
+
     </div>
   </div>
+
+
+</div>
+  </div>
+
+
+
+ 
 </section>
 </template>
 
 <script>
 export default {
 
+ 
 }
+
+
+
+
 </script>
 
+
+
+<style lang="scss">
+// SASS Variables.
+
+$link: #818CF8;
+$link-hover: #4B5563;
+
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+#particles-js {
+//   position: absolute;
+//   width: 100%;
+//   height: 100%;
+
+}
+
+.text {
+	// position: absolute;
+	top: 50%;
+	right: 50%;
+	transform: translate(50%,-50%);
+	// color: $text;
+	max-width: 90%;
+	// padding: 2em 3em;
+	// background: rgba(0, 0, 0, 0.4);
+	text-shadow: 0px 0px 2px #131415;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	font-size: 2.25em;
+	font-weight: 700;
+	letter-spacing: -1px;
+}
+
+a,
+a:visited {
+	color: $link;
+	transition: 0.25s;
+}
+
+a:hover,
+a:focus {
+	color: $link-hover;
+}
+</style>
+
+
+
 <style>
+
+.iconify { width: 80px; height: 80px; padding:10px }
 
 </style>

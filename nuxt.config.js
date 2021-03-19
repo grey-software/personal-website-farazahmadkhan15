@@ -8,7 +8,9 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'og:description', name: 'og:description', content: 'A software engineer who love to code and create bueatiful things' }
+      { hid: 'og:description', name: 'og:description', content: 'A software engineer who love to code and create bueatiful things' },
+      { hid: 'og:title', name: 'og:title', content: 'Faraz Ahmad Khan' },
+      { hid: 'og:site_name', name: 'og:site_name', content: 'Faraz Ahmad Khan' }
       
     ],
     link: [
